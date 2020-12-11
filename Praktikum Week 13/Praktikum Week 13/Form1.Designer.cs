@@ -38,9 +38,10 @@ namespace Praktikum_Week_13
             // labelEmpty
             // 
             this.labelEmpty.AutoSize = true;
+            this.labelEmpty.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelEmpty.Location = new System.Drawing.Point(78, 334);
             this.labelEmpty.Name = "labelEmpty";
-            this.labelEmpty.Size = new System.Drawing.Size(63, 17);
+            this.labelEmpty.Size = new System.Drawing.Size(179, 46);
             this.labelEmpty.TabIndex = 0;
             this.labelEmpty.Text = "[EMPTY]";
             // 
