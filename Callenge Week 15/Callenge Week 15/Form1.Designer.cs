@@ -107,6 +107,7 @@ namespace Callenge_Week_15
             this.buttonC.TabIndex = 4;
             this.buttonC.Text = "C";
             this.buttonC.UseVisualStyleBackColor = true;
+            this.buttonC.Click += new System.EventHandler(this.buttonC_Click);
             // 
             // buttonplusminus
             // 
@@ -153,6 +154,7 @@ namespace Callenge_Week_15
             this.buttonbagi.TabIndex = 9;
             this.buttonbagi.Text = "/";
             this.buttonbagi.UseVisualStyleBackColor = true;
+            this.buttonbagi.Click += new System.EventHandler(this.buttonbagi_Click);
             // 
             // buttonangka8
             // 
@@ -191,6 +193,7 @@ namespace Callenge_Week_15
             this.buttonkali.TabIndex = 13;
             this.buttonkali.Text = "*";
             this.buttonkali.UseVisualStyleBackColor = true;
+            this.buttonkali.Click += new System.EventHandler(this.buttonkali_Click);
             // 
             // buttonangka6
             // 
@@ -240,6 +243,7 @@ namespace Callenge_Week_15
             this.buttonminus.TabIndex = 18;
             this.buttonminus.Text = "-";
             this.buttonminus.UseVisualStyleBackColor = true;
+            this.buttonminus.Click += new System.EventHandler(this.buttonminus_Click);
             // 
             // buttonangka3
             // 
