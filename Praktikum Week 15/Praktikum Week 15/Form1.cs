@@ -122,8 +122,9 @@ namespace Praktikum_Week_15
             {
                 buttonDelete.Enabled = true;
                 listBoxMenu.Items.RemoveAt(listBoxMenu.SelectedIndex);
+                listBoxHarga.Items.RemoveAt(listBoxMenu.SelectedIndex);
             }
-            else if (listBoxMenu.Items.Count == 0)
+            else if (listBoxMenu.Items.Count > 1) 
             {
                 buttonDelete.Enabled = false;
             }
